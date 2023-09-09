@@ -40,4 +40,9 @@ public class StudentController {
         studentService.deleteStudent(id);
     }
 
+    @GetMapping("/message")
+    public String message() {
+        return "Welcome to Azure!!!";
+    }
+
 }
