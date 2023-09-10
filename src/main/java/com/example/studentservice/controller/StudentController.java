@@ -42,7 +42,7 @@ public class StudentController {
 
     @GetMapping("/message")
     public String message() {
-        return "Welcome to Azure!!!";
+        return "Welcome to Azure master!!!";
     }
 
 }
